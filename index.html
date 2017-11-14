@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nike Product Card Dark</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+
+	<main class="ba-main">
+		<div class="ba-product">
+			<div class="ba-brand">
+				<img src="img/logo.png">
+			</div>
+			<div class="ba-product__slider">
+				<img src="img/product.png">
+			</div>
+			<div class="ba-product__color">
+				<label class="ba-radio">
+					<input type="radio" name="color" value="1" checked>
+					<span class="ba-radio__color ba-radio__color--navy"></span>
+				</label>
+				<label class="ba-radio">
+					<input type="radio" name="color" value="0">
+					<span class="ba-radio__color ba-radio__color--white"></span>
+				</label>
+				<label class="ba-radio">
+					<input type="radio" name="color" value="0">
+					<span class="ba-radio__color ba-radio__color--red"></span>
+				</label>
+				<label class="ba-radio">
+					<input type="radio" name="color" value="0">
+					<span class="ba-radio__color ba-radio__color--blue"></span>
+				</label>
+			</div>
+		</div>
+		<div class="ba-info">
+			<div class="ba-info__title">
+				<h1>Nike SB Stefan Janoski Max</h1>
+				<p>Unisex Skateboarding Shoe</p>
+			</div>
+			<div class="ba-info__rating">
+				<button class="ba-info__star ba-info__star--active"></button>
+				<button class="ba-info__star ba-info__star--active"></button>
+				<button class="ba-info__star ba-info__star--active"></button>
+				<button class="ba-info__star "></button>
+				<button class="ba-info__star "></button>
+			</div>
+			<form class="ba-info__buying">
+				<select class="ba-buying__button ba-button__size" name="Size">
+					<option value="" hidden>Size</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+				</select>
+				<select class="ba-buying__button ba-button__qty" name="Qty">
+					<option value="" hidden>Qty</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+				</select>
+				<label>
+					<input type="submit" value="Add to cart" class="ba-buying__button ba-button__add">
+				</label>
+			</form>
+
+		</div>
+	</main>
+
+</body>
+</html>
